@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Test d'une galerie d'images</h1>
+    <p>Entièrement en HTML et CSS</p>
+
+    <div id="gallery">
+      <span>
+        <img src="images/1.jpg " alt="" />
+        <img id="i1" class="img" src="images/1.jpg " alt="" />
+        <a href="#i1"></a>
+        <a class="prev" href="#i3">&#60;</a>
+        <a class="next" href="#i2">&#62;</a>
+      </span>
+      <span>
+        <img src="images/2.jpg " alt="" />
+        <img id="i2" class="img" src="images/2.jpg " alt="" />
+        <a href="#i2"></a>
+        <a class="prev" href="#i1">&#60;</a>
+        <a class="next" href="#i3">&#62;</a>
+      </span>
+      <span>
+        <img src="images/3.jpg " alt="" />
+        <img id="i3" class="img" src="images/3.jpg " alt="" />
+        <a href="#i2"></a>
+        <a class="prev" href="#i2">&#60;</a>
+        <a class="next" href="#i1">&#62;</a>
+      </span>
+    </div>
+  </body>
+</html>
